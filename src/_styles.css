@@ -1,0 +1,58 @@
+/* ==========================================================================
+   SITE STYLES
+
+   - Mobile first
+   - Medium and Large
+   - Medium
+   - Large
+   ========================================================================== */
+
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+
+/* Mobile-first classes here (No media query needed, these styles are global)
+   ========================================================================== */
+
+
+
+
+/* Medium and Up - Targets everything larger than mobile
+   ========================================================================== */
+
+@media (--breakpoint-medium-and-up) {
+
+}
+
+
+
+
+/* Medium - only targets 1st breakpoint. Styles
+   ========================================================================== */
+
+@media (--breakpoint-medium) {
+
+}
+
+
+
+
+/* Large - only targets 2nd breakpoint.
+   ========================================================================== */
+
+@media (--breakpoint-large) {
+
+}
